@@ -14,6 +14,6 @@
   }
 
 .wrapper {
-  background-image: url('images/football_1920.jpg');
+  background-image: url('/images/football_1920.jpg');
   background-color: #0a0e34;
 }
