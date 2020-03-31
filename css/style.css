@@ -6,25 +6,33 @@
   @font-face {
     font-family: opensans-bold ;
     src: url(fonts/OpenSans-Bold.ttf);
+    font-weight: normal;
+    font-style: normal;
   }
 
   @font-face {
     font-family: opensans-regular ;
     src: url(fonts/OpenSans-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
   }
 
 .wrapper {
-  background: url('../images/football_1920.jpg') no-repeat;
-  background-size: 100% 100%;
+  background-color: #0a0e34;
+  position: relative;
+  z-index: 2;
 }
 
 .wrapper::after {
   content:"";
-  background-color: #0a0e34;
+  background: url('../images/football_1920.jpg') no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
   top:0;
   left:0;
   right:0;
   bottom:0;
+  opacity: 0.1;
 }
 
 .logo-box {
@@ -32,6 +40,56 @@
 }
 
 .preview-text1 {
+  margin-left: 190px;
+  text-transform: uppercase;
   margin-top: 300px;
+  font-size: 90px;
+  letter-spacing: 5px;
+  line-height: 31px;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-weight: 700;
+}
+
+.preview-text2 {
+  margin-top: 25px;
+  font-size: 90px;
   text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  line-height: 100px;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-weight: 700;
+}
+
+.stores {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+}
+
+.store {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  margin: 220px;
+  width: 311px;
+  height: 77px;
+  border-radius: 38px;
+  background-color: #5e42b0;
+}
+
+.store:nth-child(1) {
+  margin-left: auto;
+  margin-right: 50px;
+}
+
+.store:nth-child(2) {
+  margin-right: auto;
+}
+
+.store-icon {
+  -ms-align-self: flex-start;
+  align-self: flex-start;
 }
