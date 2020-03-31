@@ -14,7 +14,24 @@
   }
 
 .wrapper {
-  background-image: url('../images/football_1920.jpg');
-  background-color: #0a0e34;
+  background: url('../images/football_1920.jpg') no-repeat;
+  background-size: 100% 100%;
+}
 
+.wrapper::after {
+  content:"";
+  background-color: #0a0e34;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+}
+
+.logo-box {
+  text-align: center;
+}
+
+.preview-text1 {
+  margin-top: 300px;
+  text-align: center;
 }
