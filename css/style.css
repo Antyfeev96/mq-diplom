@@ -5,15 +5,15 @@
 }
 
   @font-face {
-    font-family: opensans-bold ;
-    src: url(fonts/OpenSans-Bold.ttf);
+    font-family: opensans-bold;
+    src: url('../fonts/OpenSans-Bold.ttf');
     font-weight: normal;
     font-style: normal;
   }
 
   @font-face {
-    font-family: opensans-regular ;
-    src: url(fonts/OpenSans-Regular.ttf);
+    font-family: opensans-regular;
+    src: url('../fonts/OpenSans-Regular.ttf');
     font-weight: normal;
     font-style: normal;
   }
@@ -51,7 +51,7 @@
   letter-spacing: 5px;
   line-height: 31px;
   color: #ffffff;
-  font-family: "Open Sans";
+  font-family: opensans-bold;
   font-weight: 700;
 }
 
@@ -63,7 +63,7 @@
   letter-spacing: 5px;
   line-height: 100px;
   color: #ffffff;
-  font-family: "Open Sans";
+  font-family: opensans-bold;
   font-weight: 700;
 }
 
@@ -79,8 +79,8 @@
 }
 
 .link-button {
-text-decoration: none;
-color: white;
+  text-decoration: none;
+  color: white;
 }
 
 .button {
@@ -122,7 +122,7 @@ color: white;
   font-size: 14px;
   letter-spacing: 1px;
   color: #ffffff;
-  font-family: "Open Sans";
+  font-family: opensans-regular;
   font-weight: 400;
   margin-top: auto;
 }
@@ -132,7 +132,79 @@ color: white;
   font-size: 14px;
   letter-spacing: 1px;
   color: #ffffff;
-  font-family: "Open Sans";
+  font-family: opensans-bold;
   font-weight: 700;
   margin-bottom: auto;
+}
+
+.main-bar {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.title {
+  text-transform: uppercase;
+  font-size: 80px;
+  line-height: 60px;
+  color: #e7e7e7;
+  font-family: opensans-bold;
+  font-weight: 700;
+  margin-right: auto;
+  margin-left: 52%;
+  margin-top: 115px;
+}
+
+.side {
+  margin-left: 52%;
+
+}
+
+.side:nth-child(3n+1) {
+  margin-top: 50px;
+}
+
+.name {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+}
+
+.number {
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 34px;
+  color: #000000;
+  font-family: opensans-bold;
+  font-weight: 700;
+  position: relative;
+}
+
+.number::after {
+  content:"";
+  position: absolute;
+  margin-top: 30px;
+  margin-left: -21px;
+  width: 19px;
+  height: 5px;
+  border-radius: 2px;
+  background-color: #5e42b0;
+}
+
+.name-title {
+  font-size: 36px;
+  letter-spacing: 2px;
+  line-height: 34px;
+  color: #c1c1c1;
+  font-family: opensans-bold;
+  font-weight: 700;
+  margin-left: 10px;
+}
+
+.text {
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: #000000;
+  font-family: opensans-regular;
+  font-weight: 400;
+  margin-left: 52%;
 }
