@@ -138,8 +138,7 @@
 }
 
 .main-bar {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+  background: url("../images/footballer_566.png") no-repeat;
 }
 
 .title {
@@ -150,17 +149,26 @@
   font-family: opensans-bold;
   font-weight: 700;
   margin-right: auto;
-  margin-left: 52%;
+  padding-left: 52%;
   margin-top: 115px;
+  padding-bottom: 50px;
 }
 
 .side {
-  margin-left: 52%;
+  padding-left: 52%;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  position: relative;
+  z-index: 1;
 
 }
 
-.side:nth-child(3n+1) {
-  margin-top: 50px;
+.side:nth-of-type(2n) {
+  background-color: #f6f4fa;
+}
+
+.side:nth-of-type(3n) {
+  background-color: #5e42b0;
 }
 
 .name {
@@ -190,6 +198,17 @@
   background-color: #5e42b0;
 }
 
+.number:nth-of-type(3n)::after {
+  content:"";
+  position: absolute;
+  margin-top: 30px;
+  margin-left: -21px;
+  width: 19px;
+  height: 5px;
+  border-radius: 2px;
+  background-color: #efefef;
+}
+
 .name-title {
   font-size: 36px;
   letter-spacing: 2px;
@@ -206,5 +225,5 @@
   color: #000000;
   font-family: opensans-regular;
   font-weight: 400;
-  margin-left: 52%;
+  margin-top: 30px;
 }
