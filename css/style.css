@@ -41,9 +41,11 @@
 .logo-box {
   display: block;
   text-align: center;
+  padding-top: 45px;
 }
 
 .preview-text1 {
+  display: block;
   margin-left: 190px;
   text-transform: uppercase;
   margin-top: 300px;
@@ -56,6 +58,7 @@
 }
 
 .preview-text2 {
+  display: block;
   margin-top: 25px;
   font-size: 90px;
   text-align: center;
@@ -76,11 +79,6 @@
   justify-content: space-between;
   width: 675px;
   margin-top: 200px;
-}
-
-.link-button {
-  text-decoration: none;
-  color: white;
 }
 
 .button {
@@ -137,8 +135,14 @@
   margin-bottom: auto;
 }
 
+.main {
+  padding-top: 115px;
+}
+
 .main-bar {
-  background: url("../images/footballer_566.png") no-repeat;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
 }
 
 .title {
@@ -149,13 +153,10 @@
   font-family: opensans-bold;
   font-weight: 700;
   margin-right: auto;
-  padding-left: 52%;
-  margin-top: 115px;
   padding-bottom: 50px;
 }
 
 .side {
-  padding-left: 52%;
   padding-top: 60px;
   padding-bottom: 60px;
   position: relative;
@@ -190,8 +191,8 @@
 .number::after {
   content:"";
   position: absolute;
-  margin-top: 30px;
-  margin-left: -21px;
+  bottom: 0;
+  left: 0;
   width: 19px;
   height: 5px;
   border-radius: 2px;
@@ -201,8 +202,8 @@
 .number:nth-of-type(3n)::after {
   content:"";
   position: absolute;
-  margin-top: 30px;
-  margin-left: -21px;
+  bottom: 0;
+  left: 0;
   width: 19px;
   height: 5px;
   border-radius: 2px;
