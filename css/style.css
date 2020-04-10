@@ -135,14 +135,21 @@
   margin-bottom: auto;
 }
 
-.main {
-  padding-top: 115px;
-}
-
 .main-bar {
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
+}
+
+.player {
+  margin-top: 28px;
+  margin-left: auto;
+}
+
+.side-bar {
+  padding-top: 115px;
+  margin-right: auto;
+  margin-left: 48px;
 }
 
 .title {
