@@ -274,6 +274,10 @@
   display: flex;
 }
 
+.side-photo {
+  width: 50%;
+}
+
 .side-a {
   font-size: 36px;
   letter-spacing: 2px;
