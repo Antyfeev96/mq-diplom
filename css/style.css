@@ -207,7 +207,7 @@
   width: 19px;
   height: 5px;
   border-radius: 2px;
-  background-color: #efefef;
+  background-color: #f5f6f7;
 }
 
 .name-title {
@@ -266,4 +266,33 @@
   font-weight: 400;
   margin-top: 30px;
   margin-left: 9%;
+}
+
+.side-menu {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+}
+
+.side-a {
+  font-size: 36px;
+  letter-spacing: 2px;
+  line-height: 34px;
+  color: #c1c1c1;
+  font-family: opensans-bold;
+  font-weight: 700;
+  padding-left: 125px;
+  padding-top: 13.5%;
+  text-transform: uppercase;
+}
+
+.side-t{
+  padding-top: 6.25%;
+  padding-left: 125px;
+  padding-right: 11%;
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: #000000;
+  font-family: opensans-regular;
+  font-weight: 400;
 }
