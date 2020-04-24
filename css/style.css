@@ -426,6 +426,12 @@
   display: flex;
 }
 
+.side-container:nth-of-type(2) {
+  -webkit-flex-direction: row-reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+}
+
 .side-photo {
   width: 50%;
 }
