@@ -52,6 +52,10 @@ body {
   text-align: center;
 }
 
+.svg {
+  width: 15%;
+}
+
 .preview-article {
   margin-top: 300px;
 }
@@ -455,7 +459,7 @@ body {
   margin-right: auto;
   margin-left: auto;
   vertical-align: middle;
-  margin-top: 200px;
+  align-content: center;
 }
 
 .side-a {
@@ -580,6 +584,10 @@ body {
     display: block;
     text-align: center;
     width: 100%;
+  }
+
+  .svg {
+    width: 15%;
   }
 
   .preview-article {
@@ -1058,7 +1066,7 @@ body {
   }
 }
 
-@media (max-width: 639px) {
+@media (min-width: 320px) and (max-width: 639px) {
   .header {
     background: url('../images/football_767.jpg') no-repeat;
     position: relative;
@@ -1094,6 +1102,8 @@ body {
 
   .preview-article {
     margin-top: 300px;
+    width: 100%;
+    text-align: center;
   }
 
   .preview-text1 {
@@ -1117,13 +1127,10 @@ body {
     color: #ffffff;
     font-family: opensans-bold;
     font-weight: 700;
-    margin-left: 120px;
+    margin-left: 40px;
   }
 
   .stores {
-    display: -webkit-flex;
-    display: -ms-flex;
-    display: flex;
     margin-left: auto;
     margin-right: auto;
     justify-content: space-between;
@@ -1135,12 +1142,17 @@ body {
     display: -webkit-flex;
     display: -ms-flex;
     display: flex;
-    width: 311px;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 80%;
     height: 77px;
     border-radius: 38px;
     background-color: #5e42b0;
     border-color: #5e42b0;
-    padding-left: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
   }
 
   .button:active, .button:focus {
@@ -1465,6 +1477,10 @@ body {
 
   .side-photo img{
     display: block;
+  }
+
+  .side-article {
+
   }
 
   .side-a {
