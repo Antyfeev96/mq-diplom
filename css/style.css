@@ -103,6 +103,8 @@ body {
   background-color: #5e42b0;
   border-color: #5e42b0;
   padding-left: 35px;
+  padding-top: 20px;
+  padding-bottom: 24px;
 }
 
 .button:active, .button:focus {
@@ -112,8 +114,6 @@ body {
 .store-icon {
   fill: white;
   width: 75px;
-  margin-top: auto;
-  margin-bottom: auto;
 }
 
 .download-container {
@@ -136,7 +136,6 @@ body {
   color: #ffffff;
   font-family: opensans-regular;
   font-weight: 400;
-  margin-top: 20px;
 }
 
 .store {
@@ -146,7 +145,6 @@ body {
   color: #ffffff;
   font-family: opensans-bold;
   font-weight: 700;
-  margin-bottom: 24px;
 }
 
 .player {
