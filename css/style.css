@@ -31,7 +31,6 @@ body {
   position: relative;
   z-index: 2;
   padding-top: 45px;
-  height: 960px;
 }
 
 .header::after {
@@ -104,6 +103,7 @@ body {
   padding-left: 55px;
   padding-top: 12px;
   padding-bottom: 12px;
+  margin-bottom: 112px;
 
 }
 
@@ -566,7 +566,7 @@ body {
   .header::after {
     content:"";
     background-color: #0a0e34;
-    background-size: 100% 100%;
+    background-size: cover;
     position: absolute;
     top:0;
     left:0;
