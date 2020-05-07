@@ -30,14 +30,14 @@ body {
   background: url('../images/football_1920.jpg') no-repeat;
   position: relative;
   z-index: 2;
-  padding-bottom: 110px;
   padding-top: 45px;
+  height: 960px;
 }
 
 .header::after {
   content:"";
   background-color: #0a0e34;
-  background-size: 100% 100%;
+  background-size: cover;
   position: absolute;
   top:0;
   left:0;
@@ -98,13 +98,13 @@ body {
   display: -ms-flex;
   display: flex;
   width: 311px;
-  height: 77px;
-  border-radius: 38px;
+  border-radius: 34px;
   background-color: #5e42b0;
   border-color: #5e42b0;
-  padding-left: 35px;
-  padding-top: 20px;
-  padding-bottom: 24px;
+  padding-left: 55px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+
 }
 
 .button:active, .button:focus {
@@ -127,6 +127,7 @@ body {
   height: inherit;
   margin-top: auto;
   margin-bottom: auto;
+  margin-right: auto;
 }
 
 .download {
@@ -161,17 +162,15 @@ body {
 .title {
   text-transform: uppercase;
   font-size: 80px;
-  line-height: 60px;
   color: #e7e7e7;
   font-family: opensans-bold;
   font-weight: 700;
   margin-right: auto;
-  padding-bottom: 50px;
   margin-left: 50%;
 }
 
 .side {
-  padding-top: 60px;
+  padding-top: 110px;
   padding-bottom: 60px;
 }
 
@@ -193,18 +192,19 @@ body {
 .number {
   font-size: 18px;
   letter-spacing: 1px;
-  line-height: 34px;
   color: #000000;
   font-family: opensans-bold;
   font-weight: 700;
   position: relative;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .number::after {
   content:"";
   position: absolute;
-  bottom: 0;
   left: 0;
+  margin-top: 25px;
   width: 19px;
   height: 5px;
   border-radius: 2px;
@@ -214,18 +214,19 @@ body {
 .number_white {
   font-size: 18px;
   letter-spacing: 1px;
-  line-height: 34px;
   color: #000000;
   font-family: opensans-bold;
   font-weight: 700;
   position: relative;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .number_white::after {
   content:"";
   position: absolute;
-  bottom: 0;
   left: 0;
+  margin-top: 25px;
   width: 19px;
   height: 5px;
   border-radius: 2px;
@@ -246,7 +247,6 @@ body {
 .name-title {
   font-size: 36px;
   letter-spacing: 2px;
-  line-height: 34px;
   color: #c1c1c1;
   font-family: opensans-bold;
   font-weight: 700;
@@ -276,7 +276,6 @@ body {
 .b-title {
   text-transform: uppercase;
   font-size: 80px;
-  line-height: 60px;
   color: #e7e7e7;
   font-family: opensans-bold;
   font-weight: 700;
@@ -430,7 +429,7 @@ body {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   width: 50%;
-  padding-top: 16.5%;
+  padding-top: 15%;
   margin-right: auto;
   margin-left: auto;
   vertical-align: middle;
@@ -442,7 +441,6 @@ body {
   box-sizing: border-box;
   font-size: 80px;
   letter-spacing: 2px;
-  line-height: 60px;
   color: #c1c1c1;
   font-family: opensans-bold;
   font-weight: 700;
@@ -531,7 +529,6 @@ body {
 }
 
 .f-download{
-  line-height: 85px;
   text-transform: uppercase;
   font-size: 80px;
   letter-spacing: 4px;
@@ -591,11 +588,8 @@ body {
 
   .preview-article {
     margin-top: 300px;
-  }
-
-  .preview-text1 {
+    margin-left: 10%;
     display: block;
-    margin-left: 90px;
     text-transform: uppercase;
     font-size: 64px;
     letter-spacing: 5px;
@@ -625,7 +619,6 @@ body {
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    justify-content: space-between;
     width: 675px;
     margin-top: 200px;
   }
@@ -635,11 +628,18 @@ body {
     display: -ms-flex;
     display: flex;
     width: 311px;
-    height: 77px;
     border-radius: 38px;
     background-color: #5e42b0;
     border-color: #5e42b0;
-    padding-left: 35px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 30px;
+    margin-right: 10px;
+  }
+
+  .button:nth-of-type(2) {
+    margin-left: 10px;
   }
 
   .button:active, .button:focus {
@@ -673,7 +673,6 @@ body {
     color: #ffffff;
     font-family: opensans-regular;
     font-weight: 400;
-    margin-top: 20px;
   }
 
   .store {
@@ -683,7 +682,6 @@ body {
     color: #ffffff;
     font-family: opensans-bold;
     font-weight: 700;
-    margin-bottom: 20px;
   }
 
   .player {
@@ -700,17 +698,15 @@ body {
   .title {
     text-transform: uppercase;
     font-size: 80px;
-    line-height: 60px;
     color: #e7e7e7;
     font-family: opensans-bold;
     font-weight: 700;
     margin-right: auto;
-    padding-bottom: 50px;
-    margin-left: 52%;
+    margin-left: 45%;
   }
 
   .side {
-    padding-top: 40px;
+    padding-top: 90px;
     padding-bottom: 40px;
   }
 
@@ -726,7 +722,7 @@ body {
     display: -webkit-flex;
     display: -ms-flex;
     display: flex;
-    margin-left: 52%;
+    margin-left: 45%;
   }
 
   .number {
@@ -785,11 +781,11 @@ body {
   .name-title {
     font-size: 36px;
     letter-spacing: 2px;
-    line-height: 34px;
     color: #c1c1c1;
     font-family: opensans-bold;
     font-weight: 700;
     margin-left: 10px;
+    line-height: 34px;
   }
 
   .text {
@@ -799,7 +795,7 @@ body {
     font-family: opensans-regular;
     font-weight: 400;
     margin-top: 30px;
-    margin-left: 52%;
+    margin-left: 45%;
   }
 
   .b-side-bar {
@@ -815,7 +811,6 @@ body {
   .b-title {
     text-transform: uppercase;
     font-size: 80px;
-    line-height: 60px;
     color: #e7e7e7;
     font-family: opensans-bold;
     font-weight: 700;
@@ -956,7 +951,6 @@ body {
     font-size: 80px;
     margin-top: 80px;
     letter-spacing: 2px;
-    line-height: 34px;
     color: #c1c1c1;
     font-family: opensans-bold;
     font-weight: 700;
@@ -970,7 +964,6 @@ body {
     font-size: 80px;
     margin-top: 80px;
     letter-spacing: 2px;
-    line-height: 34px;
     color: #c1c1c1;
     font-family: opensans-bold;
     font-weight: 700;
@@ -1047,7 +1040,6 @@ body {
   }
 
   .f-download{
-    line-height: 85px;
     text-transform: uppercase;
     font-size: 80px;
     letter-spacing: 4px;
@@ -1075,7 +1067,7 @@ body {
   }
 }
 
-@media (min-width: 320px) and (max-width: 639px) {
+@media (max-width: 639px) {
   .header {
     background: url('../images/football_767.jpg') no-repeat;
     position: relative;
@@ -1113,14 +1105,12 @@ body {
     margin-top: 130px;
     width: 100%;
     text-align: center;
-  }
-
-  .preview-text1 {
+    margin-left: 10%;
     display: block;
-    margin-left: 20px;
     text-transform: uppercase;
     font-size: 28px;
-    letter-spacing: 1px;
+    letter-spacing: 5px;
+    line-height: 31px;
     color: #ffffff;
     font-family: opensans-bold;
     font-weight: 700;
@@ -1220,7 +1210,6 @@ body {
   .title {
     text-transform: uppercase;
     font-size: 50px;
-    line-height: 60px;
     color: #e7e7e7;
     font-family: opensans-bold;
     font-weight: 700;
@@ -1309,7 +1298,6 @@ body {
   .name-title {
     font-size: 23px;
     letter-spacing: 2px;
-    line-height: 34px;
     color: #c1c1c1;
     font-family: opensans-bold;
     font-weight: 700;
@@ -1344,7 +1332,6 @@ body {
   .b-title {
     text-transform: uppercase;
     font-size: 50px;
-    line-height: 60px;
     color: #e7e7e7;
     font-family: opensans-bold;
     font-weight: 700;
@@ -1486,7 +1473,6 @@ body {
     font-size: 28px;
     margin-top: 37px;
     letter-spacing: 1px;
-    line-height: 34px;
     color: #c1c1c1;
     font-family: opensans-bold;
     font-weight: 700;
@@ -1500,7 +1486,6 @@ body {
     font-size: 28px;
     margin-top: 37px;
     letter-spacing: 1px;
-    line-height: 34px;
     color: #c1c1c1;
     font-family: opensans-bold;
     font-weight: 700;
@@ -1580,7 +1565,6 @@ body {
   }
 
   .f-download{
-    line-height: 85px;
     text-transform: uppercase;
     font-size: 32px;
     letter-spacing: 4px;
