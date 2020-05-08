@@ -300,6 +300,7 @@ body {
   margin-top: 30px;
   margin-left: 9%;
   margin-right: 45%;
+  width: 300px;
 }
 
 .side-menu {
@@ -835,6 +836,7 @@ body {
     font-weight: 400;
     margin-top: 30px;
     margin-left: 9%;
+    width: 425px;
   }
 
   .side-menu {
@@ -1106,7 +1108,6 @@ body {
   .preview-article {
     margin-top: 130px;
     width: 100%;
-    text-align: center;
     margin-left: 10%;
     display: block;
     text-transform: uppercase;
